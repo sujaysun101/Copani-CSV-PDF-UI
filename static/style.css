@@ -1,0 +1,72 @@
+/* static/style.css */
+
+/* General styles */
+body {
+    font-family: sans-serif; /* Use a clean, default font */
+}
+
+.container {
+    max-width: 960px; /* Set a maximum width for the container */
+}
+
+h1, h2 {
+    text-align: center; /* Center the headings */
+    margin-bottom: 20px; /* Add some bottom margin */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add bottom margin to the table */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Add a light border to table cells */
+}
+
+th {
+    background-color: #f8f9fa; /* Light background color for table headers */
+    font-weight: bold;
+}
+
+
+/* Form styles */
+.form-control {
+    margin-bottom: 10px; /* Add margin between form elements */
+}
+
+.btn-primary {
+    width: 100%; /* Make the button take the full width of its container */
+}
+
+/* PDF Output styles */
+#pdfOutput {
+    border: 1px solid #ced4da; /* Add a border around the PDF output */
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f8f9fa; /* Light background color for PDF output */
+    overflow-x: auto; /* Add horizontal scrollbar if needed */
+    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .col-md-5, .col-md-2 {
+        width: 100%; /* Stack form elements vertically on smaller screens */
+    }
+}
+
+/* Customizations (optional) */
+/* You can add your own custom styles here to override Bootstrap defaults */
+/* For example, you can change the primary color: */
+.btn-primary {
+    background-color: #007bff; /* Example: Change to a different blue */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+    border-color: #0062cc;
+}
